@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+
+        <header class="header">
+            <img class="header__logo" src="./image/logo.svg" alt="логотип">
+        </header>
+
+        <section class="profile">
+            <img class="profile__avatar" src="./image/ded.png" alt="дед">
+            <div class="profile__info">
+                <div>
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
+                <button class="profile__button"></button>
+            </div>
+            <button class="add__button-add"></button>
+        </section>
+
+        <section class="elements">
+            <div class="element">
+                <img class="element__image" src="./image/kirill-1.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Карачаевск</h2>
+                    <button type="button " class="element__button"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="element__image" src="./image/kirill-2.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Гора Эльбрус</h2>
+                    <button type="button " class="element__button"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="element__image" src="./image/kiril-3.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Домбай</h2>
+                    <button type="button " class="element__button"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="element__image" src="./image/kirill-2.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Гора Эльбрус</h2>
+                    <button type="button " class="element__button"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="element__image" src="./image/kiril-3.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Домбай</h2>
+                    <button type="button " class="element__button"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="element__image" src="./image/kirill-1.jpg" alt="картинка">
+                <div class="element__about">
+                    <h2 class="element__titile">Карачаево-Ч...</h2>
+                    <button type="button " class="element__button "></button>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup ">
+            <div class="popup__container">
+                <button type="button" class="popup__closed"></button>
+                <h3 class="popup__text">Редактировать профиль</h3>
+                <form class="popup__form" action="">
+                    <input placeholder="Жак-Ив Кусто" value="" class="popup__input-name" type="text">
+                    <input placeholder="Исследователь океана" value="" class="popup__input-job" type="text">
+                    <button type="submit" class="popup__submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="footer__text">© 2020 Mesto Russia</p>
+        </footer>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

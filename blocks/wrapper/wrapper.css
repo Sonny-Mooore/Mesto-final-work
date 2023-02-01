@@ -1,0 +1,13 @@
+.wrapper {
+    margin: 45px auto 0 auto;
+    max-width: 880px;
+    -webkit-animation-appearance: none;
+    appearance: none;
+    -moz-animation-appearance: none;
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        margin: 28px 19px 0 19px;
+    }
+}

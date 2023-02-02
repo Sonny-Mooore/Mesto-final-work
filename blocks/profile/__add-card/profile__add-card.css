@@ -1,4 +1,4 @@
-.add__button-add {
+.profile__add-card {
     width: 150px;
     height: 50px;
     background-image: url(../../../image/plus__button.svg);
@@ -12,21 +12,20 @@
     padding-left: 0;
 }
 
-.add__button-add:hover {
+.profile__add-card:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width:700px) {
-    .add__button-add {
+    .profile__add-card {
         padding: 0;
-        margin: auto;
         width: 100%;
-        margin: 36px 0 0 0;
+        margin: 36px auto 0 auto;
     }
 }
 
 @media screen and (max-width:320px) {
-    .add__button-add {
+    .profile__add-card {
         padding: 0;
         margin: 36px 0 0 0;
         width: 282px;

@@ -32,3 +32,4 @@ function handleFormSubmit(evt) {
 }
 formPopup.addEventListener('submit', handleFormSubmit);
 
+console.log('hello');

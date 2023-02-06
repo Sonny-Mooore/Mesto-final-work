@@ -25,11 +25,8 @@
 
 @media screen and (max-width:320px) {
     .profile__button {
-        /* position: absolute;
-        top: 8px;
-        right: 19px; */
         max-width: 18px;
         max-height: 18px;
-        margin: 8px 0 0 19px;
+        margin: 8px 0 0 10px;
     }
 }

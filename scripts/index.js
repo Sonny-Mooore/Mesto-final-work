@@ -5,7 +5,6 @@ const closePopupBtn = wrapper.querySelector('.popup__closed');
 const formPopup = popup.querySelector('.popup__form');
 const nameInput = formPopup.querySelector('.popup__input-name');
 const jobInput = formPopup.querySelector('.popup__input-job');
-const popupSubmitSave = formPopup.querySelector('.popup__submit');
 const profileTitle = wrapper.querySelector('.profile__title');
 const profileSubtitle = wrapper.querySelector('.profile__subtitle');
 
@@ -32,4 +31,4 @@ function handleFormSubmit(evt) {
 }
 formPopup.addEventListener('submit', handleFormSubmit);
 
-console.log('hello');
+

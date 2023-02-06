@@ -9,7 +9,7 @@
     border-radius: 2px;
     margin-left: auto;
     cursor: pointer;
-    padding-left: 0;
+    padding: 0;
 }
 
 .profile__add-card:hover {
@@ -18,16 +18,14 @@
 
 @media screen and (max-width:700px) {
     .profile__add-card {
-        padding: 0;
-        width: 100%;
-        margin: 36px auto 0 auto;
+        width: 282px;
+        margin: 36px 19px 0 19px;
     }
 }
 
+
 @media screen and (max-width:320px) {
     .profile__add-card {
-        padding: 0;
         margin: 36px 0 0 0;
-        width: 282px;
     }
 }

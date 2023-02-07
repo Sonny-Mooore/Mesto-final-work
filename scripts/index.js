@@ -3,8 +3,8 @@ const popup = wrapper.querySelector('.popup');
 const profileButton = wrapper.querySelector('.profile__button');
 const closePopupBtn = wrapper.querySelector('.popup__closed');
 const formPopup = popup.querySelector('.popup__form');
-const nameInput = formPopup.querySelector('.popup__input-name');
-const jobInput = formPopup.querySelector('.popup__input-job');
+const nameInput = formPopup.querySelector('.popup__input_type_name');
+const jobInput = formPopup.querySelector('.popup__input_type_job');
 const profileTitle = wrapper.querySelector('.profile__title');
 const profileSubtitle = wrapper.querySelector('.profile__subtitle');
 
@@ -30,5 +30,3 @@ function handleFormSubmit(evt) {
     closePopup()   
 }
 formPopup.addEventListener('submit', handleFormSubmit);
-
-

@@ -15,7 +15,7 @@
     opacity: 60%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .profile__button {
         max-width: 18px;
         max-height: 18px;
@@ -25,8 +25,6 @@
 
 @media screen and (max-width:320px) {
     .profile__button {
-        max-width: 18px;
-        max-height: 18px;
         margin: 8px 0 0 10px;
     }
 }
